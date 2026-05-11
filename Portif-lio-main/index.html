@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio | Front</title>
+
+    <!-- CSS principal do projeto -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Botão de rolar para o topo (efeito existente) -->
+    <div class="scroll-up-btn" aria-label="Voltar ao topo" title="Voltar ao topo">
+        <ion-icon name="chevron-up-outline"></ion-icon>
+    </div>
+
+    <!-- Navbar fixa com EXATAMENTE 4 itens (Sobre mim, Formação, Portfólio, Contato) -->
+    <div class="navbar">
+        <div class="max-width">
+            <div class="logo">
+                <a href="#">Port<span>fó</span>lio</a>
+            </div>
+
+            <!-- Menu de navegação -->
+            <ul class="menu">
+                <li><a href="#sobre">Sobre mim</a></li>
+                <li><a href="#formacao">Formação</a></li>
+                <li><a href="#portfolio">Portfólio</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+
+            <!-- Botão de menu mobile (efeito existente no JS) -->
+            <div class="menu-btn" aria-label="Abrir menu" title="Abrir menu">
+                <ion-icon name="menu-outline"></ion-icon>
+            </div>
+        </div>
+    </div>
+
+    <!-- INÍCIO: Seção Sobre mim -->
+    <section class="sobre" id="sobre">
+        <div class="max-width">
+            <h2 class="title">Sobre</h2>
+
+            <div class="about-content">
+                <div class="column left">
+                    <img src="img/Ft_Perfil.jpg" alt="Foto do perfil">
+                </div>
+
+                <div class="column right">
+                    <!-- Texto com efeito digitado (typed.js) mantém o comportamento existente -->
+                    <div class="text">
+                        Sou Hiago e sou <span class="typing-2"></span>
+                    </div>
+
+                    <p>
+                        Minha primeira experiência profissional formal foi trabalhando dois anos como estagiário de RH.
+                        Durante esse período, adquiri conhecimentos na área administrativa e aprendi a utilizar ferramentas
+                        como Pacote Office. Também fiz um curso técnico de Administração.
+                    </p>
+
+                    <p>
+                        Depois percebi que me identificava com a área de tecnologia: fiz um curso de Suporte em TI e iniciei
+                        meus estudos em programação. Atualmente estou buscando uma vaga no setor de tecnologia para aplicar meus
+                        conhecimentos e ganhar experiência.
+                    </p>
+
+                    <!-- Conteúdo adicional solicitado: hobbies/interesses -->
+                    <p>
+                        <strong>Hobbies e interesses:</strong> estudos contínuos, projetos práticos, curiosidade por desenvolvimento
+                        web e automação de rotinas.
+                    </p>
+
+                    <a href="img/Hiago.N_Curriculo.jpg" target="_blank" rel="noopener">Ver Currículo</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- INÍCIO: Seção Formação -->
+    <section class="formacao" id="formacao">
+        <div class="max-width">
+            <h2 class="title">Formação</h2>
+
+            <div class="skills-content">
+                <div class="column left">
+                    <div class="text">Cursos, idiomas e formação educacional</div>
+
+                    <p>
+                        <strong>Cursos:</strong> Suporte em TI, curso técnico em Administração.
+                    </p>
+                    <p>
+                        <strong>Idiomas:</strong> Português (nativo) e inglês em evolução.
+                    </p>
+                    <p>
+                        <strong>Formação:</strong> foco em fundamentos e desenvolvimento web (programação júnior).
+                    </p>
+
+                    <a href="#contato">Quer conversar?</a>
+                </div>
+
+                <div class="column right">
+                    <!-- Mantém a estrutura visual de barras (efeito CSS original) -->
+                    <div class="bars">
+                        <div class="info"><span>HTML</span><span>50%</span></div>
+                        <div class="line html"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="info"><span>CSS</span><span>40%</span></div>
+                        <div class="line css"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="info"><span>JavaScript</span><span>30%</span></div>
+                        <div class="line js"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="info"><span>C#</span><span>20%</span></div>
+                        <div class="line Csharp"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="info"><span>React</span><span>10%</span></div>
+                        <div class="line React"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- INÍCIO: Seção Portfólio -->
+    <section class="portfolio" id="portfolio">
+        <div class="max-width">
+            <h2 class="title">Portfólio</h2>
+
+            <!-- Carrossel OwlCarousel (efeito existente) -->
+            <div class="carousel owl-carousel">
+                <!-- Projeto 1-->
+                <div class="card">
+                    <div class="box">
+                        <img src="img/Proj.Starbucks.png" alt="Imagem do projeto Starbucks">
+                        <div class="text">Site Starbucks</div>
+                        <a href="https://hiago-hg.github.io/Pagina_Starbucks/" target="_blank" rel="noopener" style="color: rgb(51,102,204);">Visualizar</a>
+                    </div>
+                </div>
+
+                <!-- Projeto 2-->
+                <div class="card">
+                    <div class="box">
+                        <img src="img/Instagram clone.png" alt="Imagem do projeto Instagram clone">
+                        <div class="text">Clone da home do Instagram</div>
+                        <a href="https://hiago-hg.github.io/Home-do-instagram/" target="_blank" rel="noopener" style="color: rgb(51,102,204);">Visualizar</a>
+                    </div>
+                </div>
+
+                <!-- Projeto 3-->
+                <div class="card">
+                    <div class="box">
+                        <img src="img/Relógio Digital.png" alt="Imagem do projeto Relógio Digital">
+                        <div class="text">Relógio Digital</div>
+                        <a href="https://hiago-hg.github.io/Rel-gio-Digital/" target="_blank" rel="noopener" style="color: rgb(51,102,204);">Visualizar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- INÍCIO: Seção Contato -->
+    <section class="contato" id="contato">
+        <div class="max-width">
+            <h2 class="title">Contato</h2>
+
+            <div class="contact-content">
+                <!-- Coluna esquerda (texto/endereços - mantém estilo do original) -->
+                <div class="column left">
+                    <div class="text">Fale comigo</div>
+
+                    <div class="row">
+                        <ion-icon name="earth-outline"></ion-icon>
+                        <div class="info">
+                            <div class="head">Endereço</div>
+                            <div class="sub-title">Rio de Janeiro, RJ.</div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <ion-icon name="person-outline"></ion-icon>
+                        <div class="info">
+                            <div class="head">Email</div>
+                            <div class="sub-title">Hiago.nascimento14@gmail.com.</div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <ion-icon name="person-outline"></ion-icon>
+                        <div class="info">
+                            <div class="head">Telefone/Whatsapp</div>
+                            <div class="sub-title">21 98315-4112.</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Coluna direita: formulário de contato -->
+                <div class="column rigth">
+                    <!-- Observação: o JS controla a validação e a mensagem de sucesso -->
+                    <form id="contactForm" action="#" method="post" novalidate>
+                        <div class="fields">
+                            <div class="field name">
+                                <input type="text" id="nome" name="nome" placeholder="Nome" autocomplete="name" required>
+                            </div>
+                            <div class="field email">
+                                <input type="email" id="email" name="email" placeholder="Email" autocomplete="email" required>
+                            </div>
+                        </div>
+
+                        <div class="textarea">
+                            <textarea id="mensagem" name="mensagem" placeholder="Mensagem" required></textarea>
+                        </div>
+
+                        <div class="button">
+                            <button type="submit">Enviar</button>
+                        </div>
+
+                        <!-- Mensagem de sucesso/erro exibida via JavaScript -->
+                        <p id="formFeedback" class="form-feedback" role="status" aria-live="polite"></p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <span>Criado por <a href="#">Front</a> | Todos os direitos reservado 2024</span>
+    </footer>
+
+    <!-- Ícones do Ionicons -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+    <!-- Dependências -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+
+    <!-- CSS do carrossel -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+
+    <!-- JavaScript principal -->
+    <script src="Script.js"></script>
+</body>
+</html>
+
